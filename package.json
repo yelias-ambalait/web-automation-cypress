@@ -1,0 +1,19 @@
+{
+  "name": "web-automation-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open --e2e --browser chrome"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "yelias.ambala@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.40.1",
+    "cypress": "^13.6.0",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  }
+}
